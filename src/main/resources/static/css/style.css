@@ -1,0 +1,45 @@
+.button {
+    padding: 8px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.primary {
+    background-color: aqua;
+
+}
+
+.secondary {
+    background-color: azure;
+}
+
+.button-containers {
+    display: flex;
+    gap: 10px;
+}
+
+.panel-body {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.login-form {
+    background-color: cadetblue;
+    padding: 100px;
+    width: fit-content;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+}
+.form-group{
+    display: flex;
+    justify-content: space-between;
+}
